@@ -80,7 +80,7 @@
       <file leaf-file-name="Gemfile.lock" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile.lock">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="6" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.6436498">
+            <state line="107" column="15" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.6436498">
               <folding />
             </state>
           </provider>
@@ -923,7 +923,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="6" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.6436498">
+        <state line="107" column="15" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.6436498">
           <folding />
         </state>
       </provider>
