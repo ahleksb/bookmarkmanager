@@ -1,0 +1,6 @@
+<li>
+  <%= link_to bookmark.title, bookmark.url, :target => "_blank" %>
+  (<%= link_to "Details", bookmark_path(bookmark.id) %> |
+  <%= link_to "ändern", edit_bookmark_path(bookmark.id) %> |
+  <%= link_to "löschen", bookmark, confirm: "Wollen Sie diesen Datensatz wirklich löschen?", method: "delete" %>)
+</li>

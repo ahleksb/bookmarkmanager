@@ -1,0 +1,23 @@
+<% @title = @bookmark.title %>
+<h2>Detail zum Favorit</h2>
+<p>
+  <b>Titel:</b>
+  <%= @bookmark.title %>
+</p>
+<p>
+  <b>URL:</b>
+  <%= @bookmark.url %>
+</p>
+<p>
+  <b>Kommentar:</b>
+  <%= @bookmark.comment %>
+</p>
+<p>
+  <b>Erstellt am:</b>
+  <%= @bookmark.created_at %>
+</p>
+<p>
+  <b>Geändert am:</b>
+  <%= @bookmark.updated_at %>
+</p>
+<%= back_to_list %>

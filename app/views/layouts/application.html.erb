@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bookmarkmanager - <%= @title || "Unbenannt" %></title>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+    <div id="container">
+      <div id="header">
+        <h1>Meine Linksammlung</h1>
+      </div>
+      <div id="content">
+        <% if flash[:notice] %>
+        <p id="notice">
+          <%= flash[:notice] %>
+        </p>
+        <% end %>
+        <% if flash[:alert] %>
+          <p id="alert">
+            <%= flash[:alert] %>
+          </p>
+        <% end %>
+        <%= yield %>
+      </div>
+      <div id="footer">
+        &copy; 2012 |
+        <% if user_signed_in? %>
+          <%= link_to "logout", logout_path, method: :delete %>
+        <% else %>  
+          <%= link_to "login", login_path %>
+        <% end %>
+      </div>
+    </div>
+</body>
+</html>
