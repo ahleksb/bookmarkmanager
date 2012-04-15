@@ -1,11 +1,3 @@
-GIT
-  remote: git://github.com/anjlab/bootstrap-rails.git
-  revision: 028a81746f1f8958df59dfb068d57f2932ef767d
-  specs:
-    anjlab-bootstrap-rails (2.0.2.1)
-      railties (>= 3.0)
-      sass
-
 GEM
   remote: http://rubygems.org/
   specs:
@@ -37,8 +29,12 @@ GEM
       activesupport (= 3.1.3)
     activesupport (3.1.3)
       multi_json (~> 1.0)
+    anjlab-bootstrap-rails (2.0.2.1)
+      railties (>= 3.0)
+      sass
     arel (2.2.3)
     bcrypt-ruby (3.0.1)
+    bcrypt-ruby (3.0.1-x86-mingw32)
     builder (3.0.0)
     coffee-rails (3.1.1)
       coffee-script (>= 2.2.0)
@@ -103,6 +99,7 @@ GEM
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
     sqlite3 (1.3.5)
+    sqlite3 (1.3.5-x86-mingw32)
     thor (0.14.6)
     tilt (1.3.3)
     treetop (1.4.10)
@@ -118,7 +115,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  anjlab-bootstrap-rails!
+  anjlab-bootstrap-rails
   bcrypt-ruby (~> 3.0.0)
   coffee-rails (~> 3.1.1)
   jquery-rails
