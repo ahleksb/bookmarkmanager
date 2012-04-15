@@ -18,7 +18,6 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 
   gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
-      :git => 'git://github.com/anjlab/bootstrap-rails.git'
 end
 
 gem 'jquery-rails'
