@@ -7,31 +7,57 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-    <div id="container">
-      <div id="header">
-        <h1>Meine Linksammlung</h1>
+
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="#">Meine Linksammlung</a>
+      <div class="nav-collapse">
+        <ul class="nav">
+          <li><% if user_signed_in? %>
+                <%= link_to "logout", logout_path, method: :delete %>
+            <% else %>
+                <%= link_to "login", login_path %>
+            <% end %></li>
+        </ul>
       </div>
-      <div id="content">
-        <% if flash[:notice] %>
-        <p id="notice">
-          <%= flash[:notice] %>
-        </p>
-        <% end %>
-        <% if flash[:alert] %>
-          <p id="alert">
-            <%= flash[:alert] %>
-          </p>
-        <% end %>
-        <%= yield %>
+    </div>
+  </div>
+</div>
+
+    <div class="container">
+      <div class="row">
+        <div class="span6">
+          <% if flash[:notice] %>
+              <div class="alert alert-info">
+                <a class="close" data-dismiss="alert">×</a>
+                <h4 class="alert-heading">Info!</h4>
+                <%= flash[:notice] %>
+              </div>
+          <% end %>
+          <% if flash[:alert] %>
+              <div class="alert alert-error">
+                <a class="close" data-dismiss="alert">×</a>
+                <h4 class="alert-heading">Achtung!</h4>
+                <%= flash[:alert] %>
+              </div>
+          <% end %>
+        </div>
       </div>
-      <div id="footer">
-        &copy; 2012 |
-        <% if user_signed_in? %>
-          <%= link_to "logout", logout_path, method: :delete %>
-        <% else %>  
-          <%= link_to "login", login_path %>
-        <% end %>
+      <div class="row">
+        <div class="span6">
+            <%= yield %>
+        </div>
       </div>
+      <hr>
+      <footer>
+        &copy; 2012
+      </footer>
     </div>
 </body>
 </html>

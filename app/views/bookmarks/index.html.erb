@@ -1,5 +1,15 @@
 <h2>Liste der Favoriten</h2>
-<ul>
-  <%= render @bookmarks %>
-</ul>
-<p><%= link_to "Neuen Favorit erstellen", new_bookmark_path %></p>
+
+<table class="table table-striped">
+  <thead>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Created at</th>
+    <th>actions</th>
+
+  </thead>
+    <tbody>
+      <%= render @bookmarks %>
+    </tbody>
+</table>
+<p><%= link_to "Neuen Favorit erstellen", new_bookmark_path, class: "btn btn-primary" %></p>
