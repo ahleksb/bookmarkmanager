@@ -9,7 +9,7 @@ gem 'rails', '3.1.3'
 group :development, :test do
   gem 'sqlite3'
 end
-gem 'activerecord-postgresql-adapter', :group => :production
+gem 'postgresql', :group => :production
 
 
 # Gems used only for assets and not required
