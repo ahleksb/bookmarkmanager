@@ -9,7 +9,7 @@ gem 'rails', '3.1.3'
 group :development, :test do
   gem 'sqlite3'
 end
-gem 'postgresql', :group => :production
+gem 'pg', :group => :production
 
 
 # Gems used only for assets and not required
