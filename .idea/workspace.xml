@@ -38,7 +38,7 @@
       <file leaf-file-name="_bookmark.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/bookmarks/_bookmark.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="21" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
+            <state line="1" column="21" selection-start="26" selection-end="26" vertical-scroll-proportion="-0.65384614">
               <folding />
             </state>
           </provider>
@@ -74,7 +74,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="7" selection-start="201" selection-end="201" vertical-scroll-proportion="0.29037267">
+            <state line="23" column="59" selection-start="491" selection-end="491" vertical-scroll-proportion="0.60714287">
               <folding />
             </state>
           </provider>
@@ -83,7 +83,7 @@
       <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="96" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
+            <state line="14" column="30" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -949,13 +949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/bookmarks/_bookmark.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="21" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="44" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
@@ -1005,16 +998,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/bookmarks/_bookmark.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="21" selection-start="26" selection-end="26" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="96" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
+        <state line="14" column="30" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="7" selection-start="201" selection-end="201" vertical-scroll-proportion="0.29037267">
+        <state line="23" column="59" selection-start="491" selection-end="491" vertical-scroll-proportion="0.60714287">
           <folding />
         </state>
       </provider>
